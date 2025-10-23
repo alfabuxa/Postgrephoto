@@ -1,0 +1,48 @@
+2025-10-23 17:47:08,812 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:47:09,643 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:47:09,643 - INFO - No stale entries to remove.
+2025-10-23 17:47:09,644 - INFO - Sample indexed paths:
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:47:09,644 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:47:09,644 - INFO - Database cursor closed
+2025-10-23 17:47:09,644 - INFO - Database connection closed
+2025-10-23 17:47:09,644 - INFO - Indexer shutdown complete
+2025-10-23 17:47:11,036 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:47:11,874 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:47:11,875 - INFO - No stale entries to remove.
+2025-10-23 17:47:11,875 - INFO - Sample indexed paths:
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:47:11,875 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:47:11,875 - INFO - Database cursor closed
+2025-10-23 17:47:11,875 - INFO - Database connection closed
+2025-10-23 17:47:11,875 - INFO - Indexer shutdown complete
+2025-10-23 17:47:13,045 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:47:13,885 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:47:13,886 - INFO - No stale entries to remove.
+2025-10-23 17:47:13,886 - INFO - Sample indexed paths:
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:47:13,886 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:47:13,887 - INFO - Database cursor closed
+2025-10-23 17:47:13,887 - INFO - Database connection closed
+2025-10-23 17:47:13,887 - INFO - Indexer shutdown complete
