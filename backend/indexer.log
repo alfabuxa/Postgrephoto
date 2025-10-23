@@ -46,3 +46,261 @@
 2025-10-23 17:47:13,887 - INFO - Database cursor closed
 2025-10-23 17:47:13,887 - INFO - Database connection closed
 2025-10-23 17:47:13,887 - INFO - Indexer shutdown complete
+2025-10-23 17:49:29,329 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:49:30,165 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:49:30,166 - INFO - No stale entries to remove.
+2025-10-23 17:49:30,166 - INFO - Sample indexed paths:
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:49:30,166 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:49:30,166 - INFO - Database cursor closed
+2025-10-23 17:49:30,167 - INFO - Database connection closed
+2025-10-23 17:49:30,167 - INFO - Indexer shutdown complete
+2025-10-23 17:52:09,939 - INFO - Attempting to connect to photodb database...
+2025-10-23 17:52:09,954 - INFO - Successfully connected to photodb database
+2025-10-23 17:52:09,954 - INFO - Database initialization took 0.016 seconds
+2025-10-23 17:52:09,954 - INFO - Setting up database schema...
+2025-10-23 17:52:09,957 - INFO - Database schema setup took 0.003 seconds
+2025-10-23 17:52:09,957 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:52:10,819 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:52:10,819 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-23 17:52:10,819 - INFO - Total execution time: 0.861s
+2025-10-23 17:52:10,819 - INFO - Total scan time: 0.860s
+2025-10-23 17:52:10,819 - INFO - Total EXIF extraction time: 0.855s
+2025-10-23 17:52:10,819 - INFO - Total database operation time: 0.005s
+2025-10-23 17:52:10,819 - INFO - Average EXIF time per file: 94.99ms
+2025-10-23 17:52:10,819 - INFO - Average DB time per file: 0.52ms
+2025-10-23 17:52:10,819 - INFO - Processing rate: 10.4 files/sec
+2025-10-23 17:52:10,819 - INFO - Average commit time: 1.09ms, Max commit time: 1.09ms
+2025-10-23 17:52:10,819 - INFO - Slowest EXIF extraction: 636.54ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-23 17:52:10,819 - INFO - Slowest DB operation: 1.39ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-23 17:52:10,820 - INFO - No stale entries to remove.
+2025-10-23 17:52:10,820 - INFO - Cleanup took 0.001s
+2025-10-23 17:52:10,820 - INFO - Sample indexed paths:
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:52:10,820 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:52:10,820 - INFO - Database cursor closed
+2025-10-23 17:52:10,820 - INFO - Database connection closed
+2025-10-23 17:52:10,820 - INFO - Indexer shutdown complete
+2025-10-23 17:52:23,706 - INFO - Attempting to connect to photodb database...
+2025-10-23 17:52:23,719 - INFO - Successfully connected to photodb database
+2025-10-23 17:52:23,719 - INFO - Database initialization took 0.013 seconds
+2025-10-23 17:52:23,719 - INFO - Setting up database schema...
+2025-10-23 17:52:23,725 - INFO - Database schema setup took 0.006 seconds
+2025-10-23 17:52:23,725 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:52:24,562 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:52:24,563 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-23 17:52:24,563 - INFO - Total execution time: 0.837s
+2025-10-23 17:52:24,563 - INFO - Total scan time: 0.833s
+2025-10-23 17:52:24,563 - INFO - Total EXIF extraction time: 0.829s
+2025-10-23 17:52:24,563 - INFO - Total database operation time: 0.004s
+2025-10-23 17:52:24,563 - INFO - Average EXIF time per file: 92.10ms
+2025-10-23 17:52:24,563 - INFO - Average DB time per file: 0.39ms
+2025-10-23 17:52:24,563 - INFO - Processing rate: 10.8 files/sec
+2025-10-23 17:52:24,563 - INFO - Average commit time: 4.12ms, Max commit time: 4.12ms
+2025-10-23 17:52:24,563 - INFO - Slowest EXIF extraction: 620.89ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-23 17:52:24,563 - INFO - Slowest DB operation: 1.34ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-23 17:52:24,563 - INFO - Retrieved 9 existing paths from database in 0.000s
+2025-10-23 17:52:24,564 - INFO - No stale entries to remove.
+2025-10-23 17:52:24,564 - INFO - Cleanup took 0.001s
+2025-10-23 17:52:24,564 - INFO - Sample indexed paths:
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:52:24,564 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:52:24,564 - INFO - Database cursor closed
+2025-10-23 17:52:24,564 - INFO - Database connection closed
+2025-10-23 17:52:24,564 - INFO - Indexer shutdown complete
+2025-10-23 17:52:24,663 - INFO - Attempting to connect to photodb database...
+2025-10-23 17:52:24,675 - INFO - Successfully connected to photodb database
+2025-10-23 17:52:24,676 - INFO - Database initialization took 0.013 seconds
+2025-10-23 17:52:24,676 - INFO - Setting up database schema...
+2025-10-23 17:52:24,679 - INFO - Database schema setup took 0.003 seconds
+2025-10-23 17:52:24,679 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:52:25,510 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:52:25,510 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-23 17:52:25,510 - INFO - Total execution time: 0.831s
+2025-10-23 17:52:25,510 - INFO - Total scan time: 0.829s
+2025-10-23 17:52:25,510 - INFO - Total EXIF extraction time: 0.825s
+2025-10-23 17:52:25,510 - INFO - Total database operation time: 0.003s
+2025-10-23 17:52:25,510 - INFO - Average EXIF time per file: 91.67ms
+2025-10-23 17:52:25,510 - INFO - Average DB time per file: 0.37ms
+2025-10-23 17:52:25,510 - INFO - Processing rate: 10.8 files/sec
+2025-10-23 17:52:25,510 - INFO - Average commit time: 1.96ms, Max commit time: 1.96ms
+2025-10-23 17:52:25,510 - INFO - Slowest EXIF extraction: 618.72ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-23 17:52:25,510 - INFO - Slowest DB operation: 0.98ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-23 17:52:25,511 - INFO - Retrieved 9 existing paths from database in 0.000s
+2025-10-23 17:52:25,511 - INFO - No stale entries to remove.
+2025-10-23 17:52:25,511 - INFO - Cleanup took 0.001s
+2025-10-23 17:52:25,511 - INFO - Sample indexed paths:
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:52:25,511 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:52:25,511 - INFO - Database cursor closed
+2025-10-23 17:52:25,511 - INFO - Database connection closed
+2025-10-23 17:52:25,511 - INFO - Indexer shutdown complete
+2025-10-23 17:52:25,609 - INFO - Attempting to connect to photodb database...
+2025-10-23 17:52:25,622 - INFO - Successfully connected to photodb database
+2025-10-23 17:52:25,622 - INFO - Database initialization took 0.013 seconds
+2025-10-23 17:52:25,622 - INFO - Setting up database schema...
+2025-10-23 17:52:25,625 - INFO - Database schema setup took 0.002 seconds
+2025-10-23 17:52:25,625 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:52:26,466 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:52:26,467 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-23 17:52:26,467 - INFO - Total execution time: 0.842s
+2025-10-23 17:52:26,467 - INFO - Total scan time: 0.836s
+2025-10-23 17:52:26,467 - INFO - Total EXIF extraction time: 0.833s
+2025-10-23 17:52:26,467 - INFO - Total database operation time: 0.003s
+2025-10-23 17:52:26,467 - INFO - Average EXIF time per file: 92.53ms
+2025-10-23 17:52:26,467 - INFO - Average DB time per file: 0.32ms
+2025-10-23 17:52:26,467 - INFO - Processing rate: 10.7 files/sec
+2025-10-23 17:52:26,467 - INFO - Average commit time: 5.21ms, Max commit time: 5.21ms
+2025-10-23 17:52:26,467 - INFO - Slowest EXIF extraction: 624.58ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-23 17:52:26,467 - INFO - Slowest DB operation: 0.86ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-23 17:52:26,467 - INFO - Retrieved 9 existing paths from database in 0.000s
+2025-10-23 17:52:26,468 - INFO - No stale entries to remove.
+2025-10-23 17:52:26,468 - INFO - Cleanup took 0.001s
+2025-10-23 17:52:26,468 - INFO - Sample indexed paths:
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:52:26,468 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:52:26,468 - INFO - Database cursor closed
+2025-10-23 17:52:26,468 - INFO - Database connection closed
+2025-10-23 17:52:26,468 - INFO - Indexer shutdown complete
+2025-10-23 17:52:27,175 - INFO - Attempting to connect to photodb database...
+2025-10-23 17:52:27,187 - INFO - Successfully connected to photodb database
+2025-10-23 17:52:27,187 - INFO - Database initialization took 0.013 seconds
+2025-10-23 17:52:27,187 - INFO - Setting up database schema...
+2025-10-23 17:52:27,192 - INFO - Database schema setup took 0.005 seconds
+2025-10-23 17:52:27,192 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:52:28,030 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:52:28,030 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-23 17:52:28,030 - INFO - Total execution time: 0.838s
+2025-10-23 17:52:28,030 - INFO - Total scan time: 0.834s
+2025-10-23 17:52:28,030 - INFO - Total EXIF extraction time: 0.830s
+2025-10-23 17:52:28,030 - INFO - Total database operation time: 0.004s
+2025-10-23 17:52:28,031 - INFO - Average EXIF time per file: 92.21ms
+2025-10-23 17:52:28,031 - INFO - Average DB time per file: 0.43ms
+2025-10-23 17:52:28,031 - INFO - Processing rate: 10.7 files/sec
+2025-10-23 17:52:28,031 - INFO - Average commit time: 3.52ms, Max commit time: 3.52ms
+2025-10-23 17:52:28,031 - INFO - Slowest EXIF extraction: 622.34ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-23 17:52:28,031 - INFO - Slowest DB operation: 1.66ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-23 17:52:28,031 - INFO - Retrieved 9 existing paths from database in 0.000s
+2025-10-23 17:52:28,031 - INFO - No stale entries to remove.
+2025-10-23 17:52:28,031 - INFO - Cleanup took 0.001s
+2025-10-23 17:52:28,031 - INFO - Sample indexed paths:
+2025-10-23 17:52:28,031 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:52:28,031 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:52:28,031 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:52:28,031 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:52:28,031 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:52:28,031 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:52:28,032 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:52:28,032 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:52:28,032 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:52:28,032 - INFO - Database cursor closed
+2025-10-23 17:52:28,032 - INFO - Database connection closed
+2025-10-23 17:52:28,032 - INFO - Indexer shutdown complete
+2025-10-23 17:52:28,618 - INFO - Attempting to connect to photodb database...
+2025-10-23 17:52:28,631 - INFO - Successfully connected to photodb database
+2025-10-23 17:52:28,631 - INFO - Database initialization took 0.013 seconds
+2025-10-23 17:52:28,631 - INFO - Setting up database schema...
+2025-10-23 17:52:28,637 - INFO - Database schema setup took 0.006 seconds
+2025-10-23 17:52:28,637 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:52:29,474 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:52:29,474 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-23 17:52:29,474 - INFO - Total execution time: 0.837s
+2025-10-23 17:52:29,474 - INFO - Total scan time: 0.833s
+2025-10-23 17:52:29,474 - INFO - Total EXIF extraction time: 0.829s
+2025-10-23 17:52:29,474 - INFO - Total database operation time: 0.004s
+2025-10-23 17:52:29,474 - INFO - Average EXIF time per file: 92.10ms
+2025-10-23 17:52:29,474 - INFO - Average DB time per file: 0.40ms
+2025-10-23 17:52:29,474 - INFO - Processing rate: 10.8 files/sec
+2025-10-23 17:52:29,474 - INFO - Average commit time: 3.57ms, Max commit time: 3.57ms
+2025-10-23 17:52:29,474 - INFO - Slowest EXIF extraction: 622.29ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-23 17:52:29,474 - INFO - Slowest DB operation: 1.23ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-23 17:52:29,475 - INFO - Retrieved 9 existing paths from database in 0.000s
+2025-10-23 17:52:29,475 - INFO - No stale entries to remove.
+2025-10-23 17:52:29,475 - INFO - Cleanup took 0.001s
+2025-10-23 17:52:29,475 - INFO - Sample indexed paths:
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:52:29,475 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:52:29,475 - INFO - Database cursor closed
+2025-10-23 17:52:29,476 - INFO - Database connection closed
+2025-10-23 17:52:29,476 - INFO - Indexer shutdown complete
+2025-10-23 17:53:28,321 - INFO - Attempting to connect to photodb database...
+2025-10-23 17:53:28,334 - INFO - Successfully connected to photodb database
+2025-10-23 17:53:28,334 - INFO - Database initialization took 0.013 seconds
+2025-10-23 17:53:28,334 - INFO - Setting up database schema...
+2025-10-23 17:53:28,340 - INFO - Database schema setup took 0.006 seconds
+2025-10-23 17:53:28,345 - INFO - === DATABASE STATISTICS ===
+2025-10-23 17:53:28,345 - INFO - Existing files in database: 9
+2025-10-23 17:53:28,345 - INFO - Table size: 3544 kB
+2025-10-23 17:53:28,345 - INFO - Unique file types: 4
+2025-10-23 17:53:28,346 - INFO - Date range: 2025-10-11 09:08:24.084132 to 2025-10-15 18:59:17.385948
+2025-10-23 17:53:28,346 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-23 17:53:29,181 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-23 17:53:29,181 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-23 17:53:29,181 - INFO - Total execution time: 0.835s
+2025-10-23 17:53:29,181 - INFO - Total scan time: 0.831s
+2025-10-23 17:53:29,181 - INFO - Total EXIF extraction time: 0.828s
+2025-10-23 17:53:29,181 - INFO - Total database operation time: 0.003s
+2025-10-23 17:53:29,181 - INFO - Average EXIF time per file: 91.96ms
+2025-10-23 17:53:29,181 - INFO - Average DB time per file: 0.31ms
+2025-10-23 17:53:29,181 - INFO - Processing rate: 10.8 files/sec
+2025-10-23 17:53:29,181 - INFO - Average commit time: 3.60ms, Max commit time: 3.60ms
+2025-10-23 17:53:29,182 - INFO - Slowest EXIF extraction: 620.63ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-23 17:53:29,182 - INFO - Slowest DB operation: 0.53ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-23 17:53:29,182 - INFO - Retrieved 9 existing paths from database in 0.000s
+2025-10-23 17:53:29,182 - INFO - No stale entries to remove.
+2025-10-23 17:53:29,182 - INFO - Cleanup took 0.000s
+2025-10-23 17:53:29,182 - INFO - Sample indexed paths:
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-23 17:53:29,182 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-23 17:53:29,182 - INFO - Database cursor closed
+2025-10-23 17:53:29,182 - INFO - Database connection closed
+2025-10-23 17:53:29,183 - INFO - Indexer shutdown complete
