@@ -1,3 +1,4 @@
+import exif_utils
 import os
 import psycopg2
 from datetime import datetime
@@ -6,8 +7,8 @@ from pathlib import Path
 # PostgreSQL connection
 conn = psycopg2.connect(
     dbname="photodb",
-    user="alf",          # change if needed
-    password="yourpassword",          # leave empty if using peer/trust auth
+    user="alf",          
+    password="yourpassword",         
     host="localhost"
 )
 cur = conn.cursor()
@@ -46,13 +47,33 @@ def scan_folder(folder: str):
                 continue
 
 def store_to_db(file_info):
+    exif = exif_utils.extract_exif(file_info["path"])
+    camera_model = exif.get("Model")
+    taken_at = exif.get("DateTimeOriginal")
+    if isinstance(taken_at, str):
+        try:
+            taken_at = datetime.strptime(taken_at, "%Y:%m:%d %H:%M:%S")
+        except ValueError:
+            taken_at = None
     """Insert one file's metadata into PostgreSQL."""
     cur.execute("""
-        INSERT INTO files (filename, path, filetype, size_mb, modified)
-        VALUES (%s, %s, %s, %s, %s)
-        ON CONFLICT (path) DO NOTHING;
-    """, (file_info["filename"], file_info["path"],
-          file_info["filetype"], file_info["size_mb"], file_info["modified"]))
+        INSERT INTO files (filename, path, filetype, size_mb, modified, camera_model, taken_at)
+        VALUES (%s, %s, %s, %s, %s, %s, %s)
+        ON CONFLICT (path) DO UPDATE SET
+            filename = EXCLUDED.filename,
+            size_mb = EXCLUDED.size_mb,
+            modified = EXCLUDED.modified,
+            camera_model = EXCLUDED.camera_model,
+            taken_at = EXCLUDED.taken_at;
+    """, (
+        file_info["filename"],
+        file_info["path"],
+        file_info["filetype"],
+        file_info["size_mb"],
+        file_info["modified"],
+        camera_model,
+        taken_at
+    ))
 
 def get_all_db_paths():
     """Fetch all file paths currently in the database."""
@@ -84,7 +105,7 @@ def main():
             print(f"Indexed {count} files...")
 
     conn.commit()
-    print(f"✅ Scan complete. Total indexed: {count}")
+    print(f"Scan complete. Total indexed: {count}")
 
     cleanup_removed_files(scanned_paths)
     for path in list(scanned_paths)[:10]:
