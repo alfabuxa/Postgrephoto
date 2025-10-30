@@ -1,11 +1,10 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
-import psycopg2
-import os
+from fastapi.responses import FileResponse
+import psycopg2, mimetypes, urllib.parse, os
 
 app = FastAPI()
 
-# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -14,7 +13,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# DB connection
 conn = psycopg2.connect(
     dbname="photodb",
     user="alf",
@@ -26,12 +24,22 @@ cur = conn.cursor()
 @app.get("/photos")
 def get_photos(offset: int = 0, limit: int = 30):
     cur.execute("""
-        SELECT id, path 
+        SELECT DISTINCT ON (path) id, path
         FROM files
-        WHERE filetype IN ('.jpg', '.jpeg', '.png', '.heic', '.heif', '.dng')
-        ORDER BY id
+        ORDER BY path, id
         LIMIT %s OFFSET %s
     """, (limit, offset))
-    
     results = cur.fetchall()
     return [{"id": r[0], "path": r[1]} for r in results]
+
+@app.get("/file")
+def get_file(path: str):
+    decoded = urllib.parse.unquote(path)
+    print("REQUESTED ->", decoded)
+
+    if not os.path.exists(decoded):
+        print("❌ Not found:", decoded)
+        return Response(status_code=404)
+
+    mime, _ = mimetypes.guess_type(decoded)
+    return FileResponse(decoded, media_type=mime or "application/octet-stream")
