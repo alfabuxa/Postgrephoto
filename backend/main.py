@@ -140,7 +140,7 @@ def log_database_stats():
 log_database_stats()
 
 # Folder to scan
-FOLDER_PATH = "/home/rog/Desktop/photos"  # change to your target folder
+FOLDER_PATH = "/mnt/data_smb/Photos"  # change to your target folder
 
 def scan_folder(folder: str):
     """Scan a folder recursively and yield file info."""

@@ -304,3 +304,349 @@
 2025-10-23 17:53:29,182 - INFO - Database cursor closed
 2025-10-23 17:53:29,182 - INFO - Database connection closed
 2025-10-23 17:53:29,183 - INFO - Indexer shutdown complete
+2025-10-31 02:56:17,153 - INFO - Attempting to connect to photodb database...
+2025-10-31 02:56:17,168 - INFO - Successfully connected to photodb database
+2025-10-31 02:56:17,168 - INFO - Database initialization took 0.015 seconds
+2025-10-31 02:56:17,168 - INFO - Setting up database schema...
+2025-10-31 02:56:17,178 - INFO - Database schema setup took 0.010 seconds
+2025-10-31 02:56:17,194 - INFO - === DATABASE STATISTICS ===
+2025-10-31 02:56:17,194 - INFO - Existing files in database: 9
+2025-10-31 02:56:17,194 - INFO - Table size: 3544 kB
+2025-10-31 02:56:17,194 - INFO - Unique file types: 4
+2025-10-31 02:56:17,196 - INFO - Date range: 2025-10-11 09:08:24.084132 to 2025-10-15 18:59:17.385948
+2025-10-31 02:56:17,196 - INFO - Starting scan of folder: /home/rog/Desktop/photos
+2025-10-31 02:56:18,085 - INFO - Scan complete. Total processed: 9, Success: 9, Errors: 0
+2025-10-31 02:56:18,086 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-31 02:56:18,086 - INFO - Total execution time: 0.890s
+2025-10-31 02:56:18,086 - INFO - Total scan time: 0.888s
+2025-10-31 02:56:18,086 - INFO - Total EXIF extraction time: 0.882s
+2025-10-31 02:56:18,086 - INFO - Total database operation time: 0.006s
+2025-10-31 02:56:18,086 - INFO - Average EXIF time per file: 98.02ms
+2025-10-31 02:56:18,086 - INFO - Average DB time per file: 0.62ms
+2025-10-31 02:56:18,086 - INFO - Processing rate: 10.1 files/sec
+2025-10-31 02:56:18,086 - INFO - Average commit time: 1.23ms, Max commit time: 1.23ms
+2025-10-31 02:56:18,086 - INFO - Slowest EXIF extraction: 649.22ms (/home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png)
+2025-10-31 02:56:18,086 - INFO - Slowest DB operation: 2.51ms (/home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg)
+2025-10-31 02:56:18,086 - INFO - Retrieved 9 existing paths from database in 0.000s
+2025-10-31 02:56:18,087 - INFO - No stale entries to remove.
+2025-10-31 02:56:18,087 - INFO - Cleanup took 0.000s
+2025-10-31 02:56:18,087 - INFO - Sample indexed paths:
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C.jpeg
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/GmsBly6aYAAZt5C_scale.jpeg
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/136101951_p0.png
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_23-17-37.jpg
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/Merrry_Christmas _125479304_p0.png
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/66df2f47bb52d1ec18a9d166_regular.webp
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/photo_2025-10-06_22-36-56.jpg
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-13.jpg
+2025-10-31 02:56:18,087 - INFO -   /home/rog/Desktop/photos/photo_2025-10-08_23-00-01.jpg
+2025-10-31 02:56:18,087 - INFO - Database cursor closed
+2025-10-31 02:56:18,087 - INFO - Database connection closed
+2025-10-31 02:56:18,087 - INFO - Indexer shutdown complete
+2025-10-31 03:00:56,469 - INFO - Attempting to connect to photodb database...
+2025-10-31 03:00:56,482 - INFO - Successfully connected to photodb database
+2025-10-31 03:00:56,482 - INFO - Database initialization took 0.013 seconds
+2025-10-31 03:00:56,482 - INFO - Setting up database schema...
+2025-10-31 03:00:56,488 - INFO - Database schema setup took 0.005 seconds
+2025-10-31 03:00:56,490 - INFO - === DATABASE STATISTICS ===
+2025-10-31 03:00:56,490 - INFO - Existing files in database: 9
+2025-10-31 03:00:56,490 - INFO - Table size: 3544 kB
+2025-10-31 03:00:56,490 - INFO - Unique file types: 4
+2025-10-31 03:00:56,491 - INFO - Date range: 2025-10-11 09:08:24.084132 to 2025-10-15 18:59:17.385948
+2025-10-31 03:00:56,491 - INFO - Starting scan of folder: /mnt/data_smb/Photos
+2025-10-31 03:01:01,720 - INFO - Checkpoint: Indexed 100 files (success: 100, errors: 0)
+2025-10-31 03:01:01,721 - INFO -   Avg EXIF time: 49.94ms, Avg DB time: 0.39ms, Commit time: 3.33ms
+2025-10-31 03:01:06,578 - INFO - Checkpoint: Indexed 200 files (success: 200, errors: 0)
+2025-10-31 03:01:06,578 - INFO -   Avg EXIF time: 47.34ms, Avg DB time: 0.41ms, Commit time: 3.79ms
+2025-10-31 03:01:10,915 - INFO - Checkpoint: Indexed 300 files (success: 300, errors: 0)
+2025-10-31 03:01:10,915 - INFO -   Avg EXIF time: 44.76ms, Avg DB time: 0.41ms, Commit time: 3.82ms
+2025-10-31 03:01:15,417 - INFO - Checkpoint: Indexed 400 files (success: 400, errors: 0)
+2025-10-31 03:01:15,417 - INFO -   Avg EXIF time: 44.03ms, Avg DB time: 0.42ms, Commit time: 1.07ms
+2025-10-31 03:01:19,561 - INFO - Checkpoint: Indexed 500 files (success: 500, errors: 0)
+2025-10-31 03:01:19,562 - INFO -   Avg EXIF time: 42.87ms, Avg DB time: 0.42ms, Commit time: 3.66ms
+2025-10-31 03:01:24,129 - INFO - Checkpoint: Indexed 600 files (success: 600, errors: 0)
+2025-10-31 03:01:24,129 - INFO -   Avg EXIF time: 42.93ms, Avg DB time: 0.41ms, Commit time: 7.53ms
+2025-10-31 03:01:28,066 - INFO - Checkpoint: Indexed 700 files (success: 700, errors: 0)
+2025-10-31 03:01:28,066 - INFO -   Avg EXIF time: 41.98ms, Avg DB time: 0.40ms, Commit time: 3.50ms
+2025-10-31 03:01:32,819 - INFO - Checkpoint: Indexed 800 files (success: 800, errors: 0)
+2025-10-31 03:01:32,820 - INFO -   Avg EXIF time: 42.40ms, Avg DB time: 0.40ms, Commit time: 4.94ms
+2025-10-31 03:01:37,519 - INFO - Checkpoint: Indexed 900 files (success: 900, errors: 0)
+2025-10-31 03:01:37,519 - INFO -   Avg EXIF time: 42.53ms, Avg DB time: 0.41ms, Commit time: 1.68ms
+2025-10-31 03:01:42,095 - INFO - Checkpoint: Indexed 1000 files (success: 1000, errors: 0)
+2025-10-31 03:01:42,095 - INFO -   Avg EXIF time: 42.53ms, Avg DB time: 0.41ms, Commit time: 3.99ms
+2025-10-31 03:01:46,719 - INFO - Checkpoint: Indexed 1100 files (success: 1100, errors: 0)
+2025-10-31 03:01:46,719 - INFO -   Avg EXIF time: 42.56ms, Avg DB time: 0.40ms, Commit time: 3.41ms
+2025-10-31 03:01:51,328 - INFO - Checkpoint: Indexed 1200 files (success: 1200, errors: 0)
+2025-10-31 03:01:51,328 - INFO -   Avg EXIF time: 42.56ms, Avg DB time: 0.41ms, Commit time: 3.57ms
+2025-10-31 03:01:55,813 - INFO - Checkpoint: Indexed 1300 files (success: 1300, errors: 0)
+2025-10-31 03:01:55,813 - INFO -   Avg EXIF time: 42.49ms, Avg DB time: 0.41ms, Commit time: 3.14ms
+2025-10-31 03:02:00,597 - INFO - Checkpoint: Indexed 1400 files (success: 1400, errors: 0)
+2025-10-31 03:02:00,597 - INFO -   Avg EXIF time: 42.67ms, Avg DB time: 0.41ms, Commit time: 57.07ms
+2025-10-31 03:02:05,692 - INFO - Checkpoint: Indexed 1500 files (success: 1500, errors: 0)
+2025-10-31 03:02:05,692 - INFO -   Avg EXIF time: 43.01ms, Avg DB time: 0.41ms, Commit time: 3.26ms
+2025-10-31 03:02:10,110 - INFO - Checkpoint: Indexed 1600 files (success: 1600, errors: 0)
+2025-10-31 03:02:10,110 - INFO -   Avg EXIF time: 42.86ms, Avg DB time: 0.40ms, Commit time: 24.18ms
+2025-10-31 03:02:14,769 - INFO - Checkpoint: Indexed 1700 files (success: 1700, errors: 0)
+2025-10-31 03:02:14,769 - INFO -   Avg EXIF time: 42.88ms, Avg DB time: 0.40ms, Commit time: 0.79ms
+2025-10-31 03:02:19,401 - INFO - Checkpoint: Indexed 1800 files (success: 1800, errors: 0)
+2025-10-31 03:02:19,401 - INFO -   Avg EXIF time: 42.88ms, Avg DB time: 0.40ms, Commit time: 7.51ms
+2025-10-31 03:02:23,838 - INFO - Checkpoint: Indexed 1900 files (success: 1900, errors: 0)
+2025-10-31 03:02:23,838 - INFO -   Avg EXIF time: 42.78ms, Avg DB time: 0.40ms, Commit time: 13.66ms
+2025-10-31 03:02:28,714 - INFO - Checkpoint: Indexed 2000 files (success: 2000, errors: 0)
+2025-10-31 03:02:28,714 - INFO -   Avg EXIF time: 42.90ms, Avg DB time: 0.41ms, Commit time: 3.19ms
+2025-10-31 03:02:33,099 - INFO - Checkpoint: Indexed 2100 files (success: 2100, errors: 0)
+2025-10-31 03:02:33,099 - INFO -   Avg EXIF time: 42.78ms, Avg DB time: 0.41ms, Commit time: 5.30ms
+2025-10-31 03:02:37,967 - INFO - Checkpoint: Indexed 2200 files (success: 2200, errors: 0)
+2025-10-31 03:02:37,968 - INFO -   Avg EXIF time: 42.67ms, Avg DB time: 0.41ms, Commit time: 3.21ms
+2025-10-31 03:02:41,098 - INFO - Checkpoint: Indexed 2300 files (success: 2300, errors: 0)
+2025-10-31 03:02:41,099 - INFO -   Avg EXIF time: 42.04ms, Avg DB time: 0.41ms, Commit time: 5.72ms
+2025-10-31 03:02:44,122 - INFO - Checkpoint: Indexed 2400 files (success: 2400, errors: 0)
+2025-10-31 03:02:44,122 - INFO -   Avg EXIF time: 41.43ms, Avg DB time: 0.41ms, Commit time: 3.19ms
+2025-10-31 03:02:47,555 - INFO - Checkpoint: Indexed 2500 files (success: 2500, errors: 0)
+2025-10-31 03:02:47,555 - INFO -   Avg EXIF time: 41.01ms, Avg DB time: 0.41ms, Commit time: 3.68ms
+2025-10-31 03:02:51,205 - INFO - Checkpoint: Indexed 2600 files (success: 2600, errors: 0)
+2025-10-31 03:02:51,205 - INFO -   Avg EXIF time: 40.71ms, Avg DB time: 0.41ms, Commit time: 5.44ms
+2025-10-31 03:02:54,561 - INFO - Checkpoint: Indexed 2700 files (success: 2700, errors: 0)
+2025-10-31 03:02:54,561 - INFO -   Avg EXIF time: 40.32ms, Avg DB time: 0.41ms, Commit time: 0.99ms
+2025-10-31 03:02:58,283 - INFO - Checkpoint: Indexed 2800 files (success: 2800, errors: 0)
+2025-10-31 03:02:58,283 - INFO -   Avg EXIF time: 40.08ms, Avg DB time: 0.40ms, Commit time: 3.64ms
+2025-10-31 03:03:01,849 - INFO - Checkpoint: Indexed 2900 files (success: 2900, errors: 0)
+2025-10-31 03:03:01,849 - INFO -   Avg EXIF time: 39.81ms, Avg DB time: 0.40ms, Commit time: 3.51ms
+2025-10-31 03:03:05,206 - INFO - Checkpoint: Indexed 3000 files (success: 3000, errors: 0)
+2025-10-31 03:03:05,206 - INFO -   Avg EXIF time: 39.49ms, Avg DB time: 0.40ms, Commit time: 5.20ms
+2025-10-31 03:03:08,283 - INFO - Checkpoint: Indexed 3100 files (success: 3100, errors: 0)
+2025-10-31 03:03:08,283 - INFO -   Avg EXIF time: 39.12ms, Avg DB time: 0.40ms, Commit time: 5.16ms
+2025-10-31 03:03:11,583 - INFO - Checkpoint: Indexed 3200 files (success: 3200, errors: 0)
+2025-10-31 03:03:11,584 - INFO -   Avg EXIF time: 38.83ms, Avg DB time: 0.40ms, Commit time: 3.78ms
+2025-10-31 03:03:15,058 - INFO - Checkpoint: Indexed 3300 files (success: 3300, errors: 0)
+2025-10-31 03:03:15,058 - INFO -   Avg EXIF time: 38.61ms, Avg DB time: 0.40ms, Commit time: 0.94ms
+2025-10-31 03:03:18,278 - INFO - Checkpoint: Indexed 3400 files (success: 3400, errors: 0)
+2025-10-31 03:03:18,278 - INFO -   Avg EXIF time: 38.33ms, Avg DB time: 0.40ms, Commit time: 5.27ms
+2025-10-31 03:03:21,651 - INFO - Checkpoint: Indexed 3500 files (success: 3500, errors: 0)
+2025-10-31 03:03:21,651 - INFO -   Avg EXIF time: 38.10ms, Avg DB time: 0.40ms, Commit time: 3.12ms
+2025-10-31 03:03:25,371 - INFO - Checkpoint: Indexed 3600 files (success: 3600, errors: 0)
+2025-10-31 03:03:25,371 - INFO -   Avg EXIF time: 37.99ms, Avg DB time: 0.40ms, Commit time: 4.86ms
+2025-10-31 03:03:29,108 - INFO - Checkpoint: Indexed 3700 files (success: 3700, errors: 0)
+2025-10-31 03:03:29,109 - INFO -   Avg EXIF time: 37.88ms, Avg DB time: 0.40ms, Commit time: 3.72ms
+2025-10-31 03:03:32,324 - INFO - Checkpoint: Indexed 3800 files (success: 3800, errors: 0)
+2025-10-31 03:03:32,324 - INFO -   Avg EXIF time: 37.64ms, Avg DB time: 0.40ms, Commit time: 5.07ms
+2025-10-31 03:03:35,570 - INFO - Checkpoint: Indexed 3900 files (success: 3900, errors: 0)
+2025-10-31 03:03:35,571 - INFO -   Avg EXIF time: 37.42ms, Avg DB time: 0.40ms, Commit time: 0.99ms
+2025-10-31 03:03:38,968 - INFO - Checkpoint: Indexed 4000 files (success: 4000, errors: 0)
+2025-10-31 03:03:38,968 - INFO -   Avg EXIF time: 37.25ms, Avg DB time: 0.40ms, Commit time: 3.64ms
+2025-10-31 03:03:42,378 - INFO - Checkpoint: Indexed 4100 files (success: 4100, errors: 0)
+2025-10-31 03:03:42,379 - INFO -   Avg EXIF time: 37.09ms, Avg DB time: 0.40ms, Commit time: 5.30ms
+2025-10-31 03:03:45,353 - INFO - Checkpoint: Indexed 4200 files (success: 4200, errors: 0)
+2025-10-31 03:03:45,353 - INFO -   Avg EXIF time: 36.84ms, Avg DB time: 0.40ms, Commit time: 5.42ms
+2025-10-31 03:03:48,809 - INFO - Checkpoint: Indexed 4300 files (success: 4300, errors: 0)
+2025-10-31 03:03:48,809 - INFO -   Avg EXIF time: 36.71ms, Avg DB time: 0.40ms, Commit time: 1.66ms
+2025-10-31 03:03:52,047 - INFO - Checkpoint: Indexed 4400 files (success: 4400, errors: 0)
+2025-10-31 03:03:52,047 - INFO -   Avg EXIF time: 36.54ms, Avg DB time: 0.40ms, Commit time: 4.99ms
+2025-10-31 03:03:55,199 - INFO - Checkpoint: Indexed 4500 files (success: 4500, errors: 0)
+2025-10-31 03:03:55,199 - INFO -   Avg EXIF time: 36.35ms, Avg DB time: 0.40ms, Commit time: 9.25ms
+2025-10-31 03:03:58,565 - INFO - Checkpoint: Indexed 4600 files (success: 4600, errors: 0)
+2025-10-31 03:03:58,565 - INFO -   Avg EXIF time: 36.22ms, Avg DB time: 0.40ms, Commit time: 6.83ms
+2025-10-31 03:04:02,304 - INFO - Checkpoint: Indexed 4700 files (success: 4700, errors: 0)
+2025-10-31 03:04:02,305 - INFO -   Avg EXIF time: 36.17ms, Avg DB time: 0.40ms, Commit time: 6.31ms
+2025-10-31 03:04:05,542 - INFO - Checkpoint: Indexed 4800 files (success: 4800, errors: 0)
+2025-10-31 03:04:05,542 - INFO -   Avg EXIF time: 36.03ms, Avg DB time: 0.40ms, Commit time: 6.16ms
+2025-10-31 03:04:08,864 - INFO - Checkpoint: Indexed 4900 files (success: 4900, errors: 0)
+2025-10-31 03:04:08,864 - INFO -   Avg EXIF time: 35.91ms, Avg DB time: 0.40ms, Commit time: 7.27ms
+2025-10-31 03:04:12,192 - INFO - Checkpoint: Indexed 5000 files (success: 5000, errors: 0)
+2025-10-31 03:04:12,192 - INFO -   Avg EXIF time: 35.79ms, Avg DB time: 0.40ms, Commit time: 12.47ms
+2025-10-31 03:04:15,319 - INFO - Checkpoint: Indexed 5100 files (success: 5100, errors: 0)
+2025-10-31 03:04:15,319 - INFO -   Avg EXIF time: 35.64ms, Avg DB time: 0.40ms, Commit time: 3.13ms
+2025-10-31 03:04:18,233 - INFO - Checkpoint: Indexed 5200 files (success: 5200, errors: 0)
+2025-10-31 03:04:18,233 - INFO -   Avg EXIF time: 35.46ms, Avg DB time: 0.41ms, Commit time: 1.18ms
+2025-10-31 03:04:21,584 - INFO - Checkpoint: Indexed 5300 files (success: 5300, errors: 0)
+2025-10-31 03:04:21,584 - INFO -   Avg EXIF time: 35.36ms, Avg DB time: 0.41ms, Commit time: 5.34ms
+2025-10-31 03:04:24,763 - INFO - Checkpoint: Indexed 5400 files (success: 5400, errors: 0)
+2025-10-31 03:04:24,763 - INFO -   Avg EXIF time: 35.24ms, Avg DB time: 0.40ms, Commit time: 1.12ms
+2025-10-31 03:04:28,620 - INFO - Checkpoint: Indexed 5500 files (success: 5500, errors: 0)
+2025-10-31 03:04:28,620 - INFO -   Avg EXIF time: 35.24ms, Avg DB time: 0.40ms, Commit time: 3.91ms
+2025-10-31 03:04:32,070 - INFO - Checkpoint: Indexed 5600 files (success: 5600, errors: 0)
+2025-10-31 03:04:32,070 - INFO -   Avg EXIF time: 35.17ms, Avg DB time: 0.41ms, Commit time: 1.15ms
+2025-10-31 03:04:37,418 - INFO - Checkpoint: Indexed 5700 files (success: 5700, errors: 0)
+2025-10-31 03:04:37,418 - INFO -   Avg EXIF time: 35.38ms, Avg DB time: 0.41ms, Commit time: 3.60ms
+2025-10-31 03:04:40,094 - INFO - Checkpoint: Indexed 5800 files (success: 5800, errors: 0)
+2025-10-31 03:04:40,094 - INFO -   Avg EXIF time: 35.18ms, Avg DB time: 0.41ms, Commit time: 3.88ms
+2025-10-31 03:04:43,352 - INFO - Checkpoint: Indexed 5900 files (success: 5900, errors: 0)
+2025-10-31 03:04:43,352 - INFO -   Avg EXIF time: 35.09ms, Avg DB time: 0.41ms, Commit time: 3.48ms
+2025-10-31 03:04:46,660 - INFO - Checkpoint: Indexed 6000 files (success: 6000, errors: 0)
+2025-10-31 03:04:46,661 - INFO -   Avg EXIF time: 35.00ms, Avg DB time: 0.41ms, Commit time: 57.86ms
+2025-10-31 03:04:49,938 - INFO - Checkpoint: Indexed 6100 files (success: 6100, errors: 0)
+2025-10-31 03:04:49,938 - INFO -   Avg EXIF time: 34.91ms, Avg DB time: 0.41ms, Commit time: 3.25ms
+2025-10-31 03:04:53,408 - INFO - Checkpoint: Indexed 6200 files (success: 6200, errors: 0)
+2025-10-31 03:04:53,408 - INFO -   Avg EXIF time: 34.85ms, Avg DB time: 0.41ms, Commit time: 1.17ms
+2025-10-31 03:04:56,760 - INFO - Checkpoint: Indexed 6300 files (success: 6300, errors: 0)
+2025-10-31 03:04:56,761 - INFO -   Avg EXIF time: 34.78ms, Avg DB time: 0.41ms, Commit time: 3.28ms
+2025-10-31 03:05:00,037 - INFO - Checkpoint: Indexed 6400 files (success: 6400, errors: 0)
+2025-10-31 03:05:00,037 - INFO -   Avg EXIF time: 34.70ms, Avg DB time: 0.41ms, Commit time: 5.29ms
+2025-10-31 03:05:03,221 - INFO - Checkpoint: Indexed 6500 files (success: 6500, errors: 0)
+2025-10-31 03:05:03,221 - INFO -   Avg EXIF time: 34.61ms, Avg DB time: 0.41ms, Commit time: 5.21ms
+2025-10-31 03:05:06,830 - INFO - Checkpoint: Indexed 6600 files (success: 6600, errors: 0)
+2025-10-31 03:05:06,831 - INFO -   Avg EXIF time: 34.58ms, Avg DB time: 0.41ms, Commit time: 3.27ms
+2025-10-31 03:05:10,124 - INFO - Checkpoint: Indexed 6700 files (success: 6700, errors: 0)
+2025-10-31 03:05:10,124 - INFO -   Avg EXIF time: 34.51ms, Avg DB time: 0.41ms, Commit time: 5.38ms
+2025-10-31 03:05:13,620 - INFO - Checkpoint: Indexed 6800 files (success: 6800, errors: 0)
+2025-10-31 03:05:13,620 - INFO -   Avg EXIF time: 34.46ms, Avg DB time: 0.41ms, Commit time: 3.12ms
+2025-10-31 03:05:16,995 - INFO - Checkpoint: Indexed 6900 files (success: 6900, errors: 0)
+2025-10-31 03:05:16,995 - INFO -   Avg EXIF time: 34.41ms, Avg DB time: 0.41ms, Commit time: 3.75ms
+2025-10-31 03:05:19,836 - INFO - Checkpoint: Indexed 7000 files (success: 7000, errors: 0)
+2025-10-31 03:05:19,836 - INFO -   Avg EXIF time: 34.28ms, Avg DB time: 0.41ms, Commit time: 1.18ms
+2025-10-31 03:05:23,326 - INFO - Checkpoint: Indexed 7100 files (success: 7100, errors: 0)
+2025-10-31 03:05:23,326 - INFO -   Avg EXIF time: 34.24ms, Avg DB time: 0.41ms, Commit time: 3.67ms
+2025-10-31 03:05:29,648 - INFO - Checkpoint: Indexed 7200 files (success: 7200, errors: 0)
+2025-10-31 03:05:29,648 - INFO -   Avg EXIF time: 34.60ms, Avg DB time: 0.40ms, Commit time: 3.30ms
+2025-10-31 03:05:34,240 - INFO - Checkpoint: Indexed 7300 files (success: 7300, errors: 0)
+2025-10-31 03:05:34,240 - INFO -   Avg EXIF time: 34.71ms, Avg DB time: 0.41ms, Commit time: 3.75ms
+2025-10-31 03:05:38,858 - INFO - Checkpoint: Indexed 7400 files (success: 7400, errors: 0)
+2025-10-31 03:05:38,859 - INFO -   Avg EXIF time: 34.82ms, Avg DB time: 0.41ms, Commit time: 3.19ms
+2025-10-31 03:05:43,821 - INFO - Checkpoint: Indexed 7500 files (success: 7500, errors: 0)
+2025-10-31 03:05:43,821 - INFO -   Avg EXIF time: 34.97ms, Avg DB time: 0.41ms, Commit time: 3.11ms
+2025-10-31 03:05:48,524 - INFO - Checkpoint: Indexed 7600 files (success: 7600, errors: 0)
+2025-10-31 03:05:48,524 - INFO -   Avg EXIF time: 35.08ms, Avg DB time: 0.41ms, Commit time: 5.22ms
+2025-10-31 03:05:53,363 - INFO - Checkpoint: Indexed 7700 files (success: 7700, errors: 0)
+2025-10-31 03:05:53,363 - INFO -   Avg EXIF time: 35.18ms, Avg DB time: 0.41ms, Commit time: 1.91ms
+2025-10-31 03:05:56,631 - INFO - Checkpoint: Indexed 7800 files (success: 7800, errors: 0)
+2025-10-31 03:05:56,631 - INFO -   Avg EXIF time: 35.11ms, Avg DB time: 0.41ms, Commit time: 3.62ms
+2025-10-31 03:06:00,415 - INFO - Checkpoint: Indexed 7900 files (success: 7900, errors: 0)
+2025-10-31 03:06:00,416 - INFO -   Avg EXIF time: 35.11ms, Avg DB time: 0.41ms, Commit time: 1.09ms
+2025-10-31 03:06:04,113 - INFO - Checkpoint: Indexed 8000 files (success: 8000, errors: 0)
+2025-10-31 03:06:04,113 - INFO -   Avg EXIF time: 35.09ms, Avg DB time: 0.41ms, Commit time: 5.22ms
+2025-10-31 03:06:07,655 - INFO - Checkpoint: Indexed 8100 files (success: 8100, errors: 0)
+2025-10-31 03:06:07,655 - INFO -   Avg EXIF time: 35.05ms, Avg DB time: 0.41ms, Commit time: 3.32ms
+2025-10-31 03:06:11,271 - INFO - Checkpoint: Indexed 8200 files (success: 8200, errors: 0)
+2025-10-31 03:06:11,271 - INFO -   Avg EXIF time: 35.03ms, Avg DB time: 0.41ms, Commit time: 3.65ms
+2025-10-31 03:06:14,843 - INFO - Checkpoint: Indexed 8300 files (success: 8300, errors: 0)
+2025-10-31 03:06:14,843 - INFO -   Avg EXIF time: 35.00ms, Avg DB time: 0.41ms, Commit time: 3.92ms
+2025-10-31 03:06:18,237 - INFO - Checkpoint: Indexed 8400 files (success: 8400, errors: 0)
+2025-10-31 03:06:18,238 - INFO -   Avg EXIF time: 34.95ms, Avg DB time: 0.41ms, Commit time: 5.31ms
+2025-10-31 03:06:21,646 - INFO - Checkpoint: Indexed 8500 files (success: 8500, errors: 0)
+2025-10-31 03:06:21,646 - INFO -   Avg EXIF time: 34.90ms, Avg DB time: 0.41ms, Commit time: 3.02ms
+2025-10-31 03:06:26,545 - INFO - Checkpoint: Indexed 8600 files (success: 8600, errors: 0)
+2025-10-31 03:06:26,545 - INFO -   Avg EXIF time: 34.99ms, Avg DB time: 0.41ms, Commit time: 3.59ms
+2025-10-31 03:06:31,010 - INFO - Checkpoint: Indexed 8700 files (success: 8700, errors: 0)
+2025-10-31 03:06:31,011 - INFO -   Avg EXIF time: 35.06ms, Avg DB time: 0.41ms, Commit time: 3.20ms
+2025-10-31 03:06:36,627 - INFO - Checkpoint: Indexed 8800 files (success: 8800, errors: 0)
+2025-10-31 03:06:36,627 - INFO -   Avg EXIF time: 35.22ms, Avg DB time: 0.41ms, Commit time: 3.47ms
+2025-10-31 03:06:40,138 - INFO - Checkpoint: Indexed 8900 files (success: 8900, errors: 0)
+2025-10-31 03:06:40,139 - INFO -   Avg EXIF time: 35.18ms, Avg DB time: 0.41ms, Commit time: 3.54ms
+2025-10-31 03:06:43,481 - INFO - Checkpoint: Indexed 9000 files (success: 9000, errors: 0)
+2025-10-31 03:06:43,481 - INFO -   Avg EXIF time: 35.13ms, Avg DB time: 0.41ms, Commit time: 5.62ms
+2025-10-31 03:06:46,931 - INFO - Checkpoint: Indexed 9100 files (success: 9100, errors: 0)
+2025-10-31 03:06:46,931 - INFO -   Avg EXIF time: 35.09ms, Avg DB time: 0.41ms, Commit time: 3.37ms
+2025-10-31 03:06:50,214 - INFO - Checkpoint: Indexed 9200 files (success: 9200, errors: 0)
+2025-10-31 03:06:50,215 - INFO -   Avg EXIF time: 35.03ms, Avg DB time: 0.41ms, Commit time: 5.21ms
+2025-10-31 03:06:53,125 - INFO - Checkpoint: Indexed 9300 files (success: 9300, errors: 0)
+2025-10-31 03:06:53,125 - INFO -   Avg EXIF time: 34.93ms, Avg DB time: 0.40ms, Commit time: 0.68ms
+2025-10-31 03:06:56,575 - INFO - Checkpoint: Indexed 9400 files (success: 9400, errors: 0)
+2025-10-31 03:06:56,575 - INFO -   Avg EXIF time: 34.89ms, Avg DB time: 0.40ms, Commit time: 5.23ms
+2025-10-31 03:07:00,060 - INFO - Checkpoint: Indexed 9500 files (success: 9500, errors: 0)
+2025-10-31 03:07:00,060 - INFO -   Avg EXIF time: 34.86ms, Avg DB time: 0.40ms, Commit time: 4.66ms
+2025-10-31 03:07:03,357 - INFO - Checkpoint: Indexed 9600 files (success: 9600, errors: 0)
+2025-10-31 03:07:03,357 - INFO -   Avg EXIF time: 34.80ms, Avg DB time: 0.40ms, Commit time: 7.58ms
+2025-10-31 03:07:07,638 - INFO - Checkpoint: Indexed 9700 files (success: 9700, errors: 0)
+2025-10-31 03:07:07,638 - INFO -   Avg EXIF time: 34.85ms, Avg DB time: 0.40ms, Commit time: 3.40ms
+2025-10-31 03:07:11,158 - INFO - Checkpoint: Indexed 9800 files (success: 9800, errors: 0)
+2025-10-31 03:07:11,158 - INFO -   Avg EXIF time: 34.82ms, Avg DB time: 0.40ms, Commit time: 3.21ms
+2025-10-31 03:07:15,398 - INFO - Checkpoint: Indexed 9900 files (success: 9900, errors: 0)
+2025-10-31 03:07:15,399 - INFO -   Avg EXIF time: 34.86ms, Avg DB time: 0.40ms, Commit time: 2.35ms
+2025-10-31 03:07:19,042 - INFO - Checkpoint: Indexed 10000 files (success: 10000, errors: 0)
+2025-10-31 03:07:19,042 - INFO -   Avg EXIF time: 34.85ms, Avg DB time: 0.40ms, Commit time: 3.14ms
+2025-10-31 03:07:22,940 - INFO - Checkpoint: Indexed 10100 files (success: 10100, errors: 0)
+2025-10-31 03:07:22,940 - INFO -   Avg EXIF time: 34.85ms, Avg DB time: 0.40ms, Commit time: 3.13ms
+2025-10-31 03:07:26,620 - INFO - Checkpoint: Indexed 10200 files (success: 10200, errors: 0)
+2025-10-31 03:07:26,620 - INFO -   Avg EXIF time: 34.84ms, Avg DB time: 0.40ms, Commit time: 3.63ms
+2025-10-31 03:07:31,459 - INFO - Checkpoint: Indexed 10300 files (success: 10300, errors: 0)
+2025-10-31 03:07:31,459 - INFO -   Avg EXIF time: 34.93ms, Avg DB time: 0.40ms, Commit time: 3.11ms
+2025-10-31 03:07:36,201 - INFO - Checkpoint: Indexed 10400 files (success: 10400, errors: 0)
+2025-10-31 03:07:36,201 - INFO -   Avg EXIF time: 35.02ms, Avg DB time: 0.40ms, Commit time: 1.05ms
+2025-10-31 03:07:41,182 - INFO - Checkpoint: Indexed 10500 files (success: 10500, errors: 0)
+2025-10-31 03:07:41,183 - INFO -   Avg EXIF time: 35.13ms, Avg DB time: 0.40ms, Commit time: 3.38ms
+2025-10-31 03:07:45,818 - INFO - Checkpoint: Indexed 10600 files (success: 10600, errors: 0)
+2025-10-31 03:07:45,819 - INFO -   Avg EXIF time: 35.20ms, Avg DB time: 0.40ms, Commit time: 3.25ms
+2025-10-31 03:07:50,541 - INFO - Checkpoint: Indexed 10700 files (success: 10700, errors: 0)
+2025-10-31 03:07:50,541 - INFO -   Avg EXIF time: 35.29ms, Avg DB time: 0.40ms, Commit time: 5.57ms
+2025-10-31 03:07:55,192 - INFO - Checkpoint: Indexed 10800 files (success: 10800, errors: 0)
+2025-10-31 03:07:55,192 - INFO -   Avg EXIF time: 35.34ms, Avg DB time: 0.40ms, Commit time: 174.05ms
+2025-10-31 03:07:59,822 - INFO - Checkpoint: Indexed 10900 files (success: 10900, errors: 0)
+2025-10-31 03:07:59,822 - INFO -   Avg EXIF time: 35.42ms, Avg DB time: 0.40ms, Commit time: 3.49ms
+2025-10-31 03:08:04,502 - INFO - Checkpoint: Indexed 11000 files (success: 11000, errors: 0)
+2025-10-31 03:08:04,502 - INFO -   Avg EXIF time: 35.49ms, Avg DB time: 0.40ms, Commit time: 3.03ms
+2025-10-31 03:08:09,254 - INFO - Checkpoint: Indexed 11100 files (success: 11100, errors: 0)
+2025-10-31 03:08:09,254 - INFO -   Avg EXIF time: 35.57ms, Avg DB time: 0.40ms, Commit time: 16.77ms
+2025-10-31 03:08:14,061 - INFO - Checkpoint: Indexed 11200 files (success: 11200, errors: 0)
+2025-10-31 03:08:14,061 - INFO -   Avg EXIF time: 35.66ms, Avg DB time: 0.40ms, Commit time: 4.83ms
+2025-10-31 03:08:18,227 - INFO - Checkpoint: Indexed 11300 files (success: 11300, errors: 0)
+2025-10-31 03:08:18,227 - INFO -   Avg EXIF time: 35.69ms, Avg DB time: 0.40ms, Commit time: 3.79ms
+2025-10-31 03:08:23,168 - INFO - Checkpoint: Indexed 11400 files (success: 11400, errors: 0)
+2025-10-31 03:08:23,168 - INFO -   Avg EXIF time: 35.78ms, Avg DB time: 0.40ms, Commit time: 4.86ms
+2025-10-31 03:08:28,027 - INFO - Checkpoint: Indexed 11500 files (success: 11500, errors: 0)
+2025-10-31 03:08:28,027 - INFO -   Avg EXIF time: 35.87ms, Avg DB time: 0.40ms, Commit time: 3.27ms
+2025-10-31 03:08:32,848 - INFO - Checkpoint: Indexed 11600 files (success: 11600, errors: 0)
+2025-10-31 03:08:32,848 - INFO -   Avg EXIF time: 35.94ms, Avg DB time: 0.40ms, Commit time: 2.98ms
+2025-10-31 03:08:37,662 - INFO - Checkpoint: Indexed 11700 files (success: 11700, errors: 0)
+2025-10-31 03:08:37,662 - INFO -   Avg EXIF time: 36.02ms, Avg DB time: 0.40ms, Commit time: 1.83ms
+2025-10-31 03:08:41,748 - INFO - Checkpoint: Indexed 11800 files (success: 11800, errors: 0)
+2025-10-31 03:08:41,748 - INFO -   Avg EXIF time: 36.03ms, Avg DB time: 0.40ms, Commit time: 1.17ms
+2025-10-31 03:08:46,001 - INFO - Checkpoint: Indexed 11900 files (success: 11900, errors: 0)
+2025-10-31 03:08:46,001 - INFO -   Avg EXIF time: 36.06ms, Avg DB time: 0.40ms, Commit time: 3.14ms
+2025-10-31 03:08:50,760 - INFO - Checkpoint: Indexed 12000 files (success: 12000, errors: 0)
+2025-10-31 03:08:50,760 - INFO -   Avg EXIF time: 36.13ms, Avg DB time: 0.40ms, Commit time: 3.20ms
+2025-10-31 03:08:54,425 - INFO - Checkpoint: Indexed 12100 files (success: 12100, errors: 0)
+2025-10-31 03:08:54,426 - INFO -   Avg EXIF time: 36.10ms, Avg DB time: 0.40ms, Commit time: 5.27ms
+2025-10-31 03:08:57,656 - INFO - Checkpoint: Indexed 12200 files (success: 12200, errors: 0)
+2025-10-31 03:08:57,656 - INFO -   Avg EXIF time: 36.05ms, Avg DB time: 0.40ms, Commit time: 0.72ms
+2025-10-31 03:09:00,943 - INFO - Checkpoint: Indexed 12300 files (success: 12300, errors: 0)
+2025-10-31 03:09:00,943 - INFO -   Avg EXIF time: 35.99ms, Avg DB time: 0.40ms, Commit time: 5.00ms
+2025-10-31 03:09:04,054 - INFO - Checkpoint: Indexed 12400 files (success: 12400, errors: 0)
+2025-10-31 03:09:04,054 - INFO -   Avg EXIF time: 35.93ms, Avg DB time: 0.40ms, Commit time: 5.38ms
+2025-10-31 03:09:07,531 - INFO - Checkpoint: Indexed 12500 files (success: 12500, errors: 0)
+2025-10-31 03:09:07,532 - INFO -   Avg EXIF time: 35.89ms, Avg DB time: 0.40ms, Commit time: 4.85ms
+2025-10-31 03:09:10,778 - INFO - Checkpoint: Indexed 12600 files (success: 12600, errors: 0)
+2025-10-31 03:09:10,778 - INFO -   Avg EXIF time: 35.84ms, Avg DB time: 0.40ms, Commit time: 3.45ms
+2025-10-31 03:09:13,869 - INFO - Checkpoint: Indexed 12700 files (success: 12700, errors: 0)
+2025-10-31 03:09:13,869 - INFO -   Avg EXIF time: 35.77ms, Avg DB time: 0.39ms, Commit time: 8.69ms
+2025-10-31 03:09:16,779 - INFO - Checkpoint: Indexed 12800 files (success: 12800, errors: 0)
+2025-10-31 03:09:16,779 - INFO -   Avg EXIF time: 35.70ms, Avg DB time: 0.39ms, Commit time: 1.04ms
+2025-10-31 03:09:20,020 - INFO - Checkpoint: Indexed 12900 files (success: 12900, errors: 0)
+2025-10-31 03:09:20,020 - INFO -   Avg EXIF time: 35.65ms, Avg DB time: 0.39ms, Commit time: 4.86ms
+2025-10-31 03:09:23,281 - INFO - Checkpoint: Indexed 13000 files (success: 13000, errors: 0)
+2025-10-31 03:09:23,281 - INFO -   Avg EXIF time: 35.60ms, Avg DB time: 0.39ms, Commit time: 3.26ms
+2025-10-31 03:09:26,282 - INFO - Checkpoint: Indexed 13100 files (success: 13100, errors: 0)
+2025-10-31 03:09:26,283 - INFO -   Avg EXIF time: 35.54ms, Avg DB time: 0.39ms, Commit time: 1.85ms
+2025-10-31 03:09:29,457 - INFO - Checkpoint: Indexed 13200 files (success: 13200, errors: 0)
+2025-10-31 03:09:29,457 - INFO -   Avg EXIF time: 35.48ms, Avg DB time: 0.39ms, Commit time: 4.72ms
+2025-10-31 03:09:32,434 - INFO - Checkpoint: Indexed 13300 files (success: 13300, errors: 0)
+2025-10-31 03:09:32,435 - INFO -   Avg EXIF time: 35.42ms, Avg DB time: 0.39ms, Commit time: 7.50ms
+2025-10-31 03:09:34,240 - INFO - Scan complete. Total processed: 13351, Success: 13351, Errors: 0
+2025-10-31 03:09:34,240 - INFO - === PERFORMANCE STATISTICS ===
+2025-10-31 03:09:34,240 - INFO - Total execution time: 517.749s
+2025-10-31 03:09:34,240 - INFO - Total scan time: 517.744s
+2025-10-31 03:09:34,240 - INFO - Total EXIF extraction time: 472.661s
+2025-10-31 03:09:34,240 - INFO - Total database operation time: 5.238s
+2025-10-31 03:09:34,241 - INFO - Average EXIF time per file: 35.40ms
+2025-10-31 03:09:34,241 - INFO - Average DB time per file: 0.39ms
+2025-10-31 03:09:34,241 - INFO - Processing rate: 25.8 files/sec
+2025-10-31 03:09:34,241 - INFO - Average commit time: 6.28ms, Max commit time: 174.05ms
+2025-10-31 03:09:34,241 - INFO - Slowest EXIF extraction: 3386.93ms (/mnt/data_smb/Photos/2025/05/IMG_1260.PNG)
+2025-10-31 03:09:34,241 - INFO - Slowest DB operation: 7.45ms (/mnt/data_smb/Photos/MobileBackup/PhotoLibrary/2025/9/DSC_9681.JPG)
+2025-10-31 03:09:34,249 - INFO - Retrieved 13360 existing paths from database in 0.008s
+2025-10-31 03:09:34,250 - INFO - Removing 9 stale files from DB...
+2025-10-31 03:09:34,254 - INFO - Successfully removed 9 stale files in 0.004s
+2025-10-31 03:09:34,255 - INFO - Cleanup took 0.014s
+2025-10-31 03:09:34,255 - INFO - Sample indexed paths:
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/MobileBackup/MobileBackup/iPhone 16 Pro_1/2025/9/IMG_0311.PNG
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2025/05/IMG_3155.HEIC
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2021/09/IMG_0782.JPG
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2025/05/屏幕截图 2024-01-12 232951-topaz-denoise-enhance-6x.png
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/MobileBackup/MobileBackup/iPhone 16 Pro_1/2025/9/IMG_0446.HEIC
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2025/05/IMG_4385.HEIC
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2025/07/DSC_5234_1.JPG
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2025/02/IMG_3028.HEIC
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2025/05/屏幕截图 2024-01-15 171245.png.supplemental-metada.json
+2025-10-31 03:09:34,255 - INFO -   /mnt/data_smb/Photos/2025/05/IMG_5642.HEIC.supplemental-metadata.json
+2025-10-31 03:09:34,256 - INFO - Database cursor closed
+2025-10-31 03:09:34,256 - INFO - Database connection closed
+2025-10-31 03:09:34,256 - INFO - Indexer shutdown complete
